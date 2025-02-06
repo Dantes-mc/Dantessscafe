@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Кафе "Вкусный Уголок"</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Кафе "Вкусный Уголок"</h1>
+      <nav>
+        <ul>
+          <li><a href="#menu">Меню</a></li>
+          <li><a href="#about">О нас</a></li>
+          <li><a href="#contact">Контакты</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h2>Добро пожаловать в наше кафе!</h2>
+      <p>Попробуйте лучшие блюда и напитки в уютной атмосфере</p>
+      <a href="#menu" class="btn">Смотреть меню</a>
+    </div>
+  </section>
+
+  <section id="menu" class="section">
+    <div class="container">
+      <h2>Наше Меню</h2>
+      <div class="menu-items">
+        <div class="menu-item">
+          <img src="picture/og_og_1650231446212191168.jpg" alt="Кофе">
+          <h3>Кофе</h3>
+          <p>Ароматный кофе с уникальным вкусом</p>
+        </div>
+        <div class="menu-item">
+          <img src="picture/ferfr.webp" alt="Пирог">
+          <h3>Пирог</h3>
+          <p>Свежие пироги с различными начинками</p>
+        </div>
+        <div class="menu-item">
+          <img src="picture/S600xU_2x.webp" alt="Салат">
+          <h3>Салат</h3>
+          <p>Свежие салаты с органическими продуктами</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2>О нас</h2>
+      <p>Наше кафе работает с 2010 года и предлагает самые вкусные блюда и напитки для наших гостей. Мы гордимся качеством ингредиентов и обслуживанием.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2>Контакты</h2>
+      <form id="contact-form">
+        <label for="name">Ваше имя:</label>
+        <input type="text" id="name" required>
+        
+        <label for="email">Ваш email:</label>
+        <input type="email" id="email" required>
+        
+        <label for="message">Ваше сообщение:</label>
+        <textarea id="message" required></textarea>
+        
+        <button type="submit">Отправить</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 Кафе "Вкусный Уголок". Все права защищены.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
